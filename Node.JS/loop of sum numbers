@@ -1,0 +1,17 @@
+for (let i = '1'; i <= 200; i++) {
+    let a = Number(i.toString()[0]);
+    let b = Number(i.toString()[1])
+    let c = Number(i.toString()[2])
+    let b1 = Boolean(b)
+    let c1 = Boolean(c)
+    
+    if (c1 == false && b1 == false) {
+        console.log('something false', a)
+      }
+      else if(b1 == true && c1 ==
+        false) 
+        console.log('c false', a + b)
+        else if (b1 == true && c1 ==
+            true)
+        console.log('c true', a + b + c)
+  }  
